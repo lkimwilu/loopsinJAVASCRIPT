@@ -4,13 +4,13 @@
 // }
 
 
- WHILE loop iteration
+//  WHILE loop iteration
 
-var i = 0;
-while (i < 5) {
-    console.log("while loop iteration: " + i);
-    i++;
-}
+// var i = 0;
+// while (i < 5) {
+//     console.log("while loop iteration: " + i);
+//     i++;
+// }
 
 
 
@@ -67,3 +67,13 @@ while (i < 5) {
 //     console.log(`i = ${i}, j = ${j}`);
 //     }
 // }
+
+
+ var i = 0; 
+ while (i < 20){
+    if (i % 2 ===0) 
+        continue;{
+        console.log("loop with continue: " + i);
+        }
+        i++;
+    }
