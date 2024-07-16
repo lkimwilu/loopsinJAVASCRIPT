@@ -78,9 +78,21 @@
 //         i++;
 //     }
 
-    for (var i = 0; i < 20; i++) {
-        if (i % 2 === 0) {
-            continue;  
-        }
-        console.log("loop with continue: " + i);  
+
+// Use a loop to print even numbers between 0 and 20.(While loop, )
+    // for (var i = 0; i < 20; i++) {
+    //     if (i % 2 === 0) {
+    //         continue;  
+    //     }
+    //     console.log("loop with continue: " + i);  
+    // }
+
+    // Use a loop to print even numbers between 0 and 20.( do while loop, )
+    var i = 0;  // Initialize the counter
+
+do {
+    if (i % 2 === 0) {  
+        console.log(i);  
     }
+    i++;  
+} while (i <= 20);
